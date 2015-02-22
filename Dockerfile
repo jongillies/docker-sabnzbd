@@ -30,6 +30,7 @@ VOLUME /config
 VOLUME /data
 VOLUME /complete
 VOLUME /incomplete
+VOLUME /watch
 
 ADD ./start.sh /start.sh
 RUN chmod u+x  /start.sh

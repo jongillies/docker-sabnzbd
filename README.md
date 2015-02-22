@@ -12,6 +12,7 @@ docker run -d \
     -v $SABNZDB_DATA:/data \
     -v $SABNZDB_INCOMPLETE:/incomplete \
     -v $SABNZDB_COMPLETE:/complete \
+    -v $SABNZDB_WATCH:/nzb \
     -p 8080:8080 -p 9090:9090 --name sabnzbd sabnzbd
 
 Fire up the web ui.
